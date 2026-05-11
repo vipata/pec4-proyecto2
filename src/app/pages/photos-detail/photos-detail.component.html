@@ -1,0 +1,20 @@
+<div>
+  @if (photoDetail()) {
+    <div>
+      <div>
+        <p><strong>Date:</strong> {{ photoDetail().date }}</p>
+        <p><strong>Title:</strong> {{ photoDetail().title }}</p>
+        <p><strong>Explanation:</strong> {{ photoDetail().explanation }}</p>
+        <p><strong>Url:</strong> {{ photoDetail().url }}</p>
+        <img
+          style="width: 50%; height: 50%"
+          src="{{ photoDetail().url }}"
+          [attr.alt]="photoDetail().title || ''"
+        />
+      </div>
+      <div>
+        <a routerLink="/">Back</a>
+      </div>
+    </div>
+  }
+</div>
