@@ -1,11 +1,12 @@
 import { Component, signal } from '@angular/core';
+import { MatListModule } from '@angular/material/list';
 import { RouterLink } from '@angular/router';
 import { Photo } from '../../models/photo.interface';
 import { PhotosService } from '../../services/photos.service';
 
 @Component({
   selector: 'app-photos-list',
-  imports: [RouterLink],
+  imports: [RouterLink, MatListModule],
   templateUrl: './photos-list.component.html',
   styleUrl: './photos-list.component.scss',
 })
