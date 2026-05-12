@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1778608810705,
+  "timestamp": 1778610251921,
   "index": "/pec4-proyecto2/index.html",
   "assetGroups": [
     {
@@ -13,7 +13,7 @@
       "urls": [
         "/pec4-proyecto2/favicon.ico",
         "/pec4-proyecto2/index.html",
-        "/pec4-proyecto2/main-3S6WKZN6.js",
+        "/pec4-proyecto2/main-JUWVRTRM.js",
         "/pec4-proyecto2/manifest.webmanifest",
         "/pec4-proyecto2/polyfills-5CFQRCPP.js",
         "/pec4-proyecto2/styles-7EXJWZVO.css"
@@ -79,8 +79,8 @@
     "/pec4-proyecto2/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
     "/pec4-proyecto2/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
     "/pec4-proyecto2/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
-    "/pec4-proyecto2/index.html": "96fb43936424612e8d839661e97d99b961a8ca91",
-    "/pec4-proyecto2/main-3S6WKZN6.js": "95b1df6e827af0f1d2a57b632d7302ff1385505a",
+    "/pec4-proyecto2/index.html": "7b282432379e17a057fb6dec2d6439c47c2ffb8a",
+    "/pec4-proyecto2/main-JUWVRTRM.js": "97d2cd08dcb89f1a5567a065753df7eb7c201aaa",
     "/pec4-proyecto2/manifest.webmanifest": "093f38d075a8f9da33a33b432f53e75cf3f58225",
     "/pec4-proyecto2/polyfills-5CFQRCPP.js": "f2241e9a25858f895ce299d15f6f22e849e2fd72",
     "/pec4-proyecto2/styles-7EXJWZVO.css": "7db186df25cd8890c4cc1a6e702da5e1451d1400"
