@@ -1,11 +1,13 @@
 import { Component, signal } from '@angular/core';
+import { MatButtonModule } from '@angular/material/button';
+import { MatExpansionModule } from '@angular/material/expansion';
 import { ActivatedRoute, Router, RouterLink } from '@angular/router';
 import { Photo } from '../../models/photo.interface';
 import { PhotosService } from '../../services/photos.service';
 
 @Component({
   selector: 'app-photos-detail',
-  imports: [RouterLink],
+  imports: [RouterLink, MatButtonModule, MatExpansionModule],
   templateUrl: './photos-detail.component.html',
   styleUrl: './photos-detail.component.scss',
 })
