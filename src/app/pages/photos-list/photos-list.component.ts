@@ -4,21 +4,21 @@ import { MatCardModule } from '@angular/material/card';
 import { MatIconModule } from '@angular/material/icon';
 import { MatListModule } from '@angular/material/list';
 import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
-import { RouterLink } from '@angular/router';
 import { Photo } from '../../models/photo.interface';
 import { PhotosService } from '../../services/photos.service';
 import { CardComponent } from '../../shared/components/card/card.component';
+import { ListComponent } from '../../shared/components/list/list.component';
 
 @Component({
   selector: 'app-photos-list',
   imports: [
-    RouterLink,
     MatListModule,
     MatButtonToggleModule,
     MatCardModule,
     MatIconModule,
     MatProgressSpinnerModule,
     CardComponent,
+    ListComponent,
   ],
   templateUrl: './photos-list.component.html',
   styleUrl: './photos-list.component.scss',

@@ -11,8 +11,7 @@
   }
 }
 
-.cards-grid,
-mat-action-list {
+.cards-grid {
   animation: fadeIn 0.4s ease-out;
 }
 
@@ -27,24 +26,6 @@ mat-action-list {
 .container {
   background-color: #f5f5f5;
   padding: 10px;
-}
-
-.listElement {
-  background-color: white;
-  display: flex;
-  align-items: center;
-  margin-bottom: 8px;
-  padding: 8px 12px;
-  border-radius: 12px;
-  border: 1px solid #e0e0e0;
-
-  img {
-    height: 48px;
-    width: 48px;
-    object-fit: cover;
-    border-radius: 8px;
-    flex-shrink: 0;
-  }
 }
 
 .cards-grid {

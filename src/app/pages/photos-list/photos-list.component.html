@@ -20,16 +20,7 @@
     </div>
 
     @if (viewMode() === "list") {
-      <mat-action-list>
-        @for (img of photos(); track img.date; let i = $index) {
-          <div class="listElement">
-            <img mat-list-avatar [src]="img.url" alt="{{ img.title }}" />
-            <button mat-list-item [routerLink]="['/photos', img.date]">
-              {{ i + 1 }} - {{ img.title }}
-            </button>
-          </div>
-        }
-      </mat-action-list>
+      <app-list [photos]="photos()" [appRoute]="'/photos'"></app-list>
     } @else {
       <div class="cards-grid">
         @for (img of photos(); track img.date; let i = $index) {
