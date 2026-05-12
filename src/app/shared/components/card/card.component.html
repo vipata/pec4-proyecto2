@@ -1,1 +1,6 @@
-<p>card works!</p>
+<mat-card [routerLink]="[appRoute, imgDate]" style="cursor: pointer">
+  <mat-card-header>
+    <mat-card-title>{{ imgIndex + 1 }} - {{ imgTitle }}</mat-card-title>
+  </mat-card-header>
+  <img mat-card-image [src]="imgUrl" [alt]="imgTitle" />
+</mat-card>

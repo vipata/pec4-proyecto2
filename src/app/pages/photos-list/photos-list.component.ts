@@ -7,6 +7,7 @@ import { MatProgressSpinnerModule } from '@angular/material/progress-spinner';
 import { RouterLink } from '@angular/router';
 import { Photo } from '../../models/photo.interface';
 import { PhotosService } from '../../services/photos.service';
+import { CardComponent } from '../../shared/components/card/card.component';
 
 @Component({
   selector: 'app-photos-list',
@@ -17,6 +18,7 @@ import { PhotosService } from '../../services/photos.service';
     MatCardModule,
     MatIconModule,
     MatProgressSpinnerModule,
+    CardComponent,
   ],
   templateUrl: './photos-list.component.html',
   styleUrl: './photos-list.component.scss',

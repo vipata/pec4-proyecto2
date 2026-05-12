@@ -33,15 +33,13 @@
     } @else {
       <div class="cards-grid">
         @for (img of photos(); track img.date; let i = $index) {
-          <mat-card
-            [routerLink]="['/photos', img.date]"
-            style="cursor: pointer"
-          >
-            <mat-card-header>
-              <mat-card-title>{{ i + 1 }} - {{ img.title }}</mat-card-title>
-            </mat-card-header>
-            <img mat-card-image [src]="img.url" [alt]="img.title" />
-          </mat-card>
+          <app-card
+            [appRoute]="'/photos'"
+            [imgDate]="img.date"
+            [imgIndex]="i"
+            [imgTitle]="img.title"
+            [imgUrl]="img.url"
+          ></app-card>
         }
       </div>
     }
