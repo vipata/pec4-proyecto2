@@ -1,3 +1,9 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
 .container {
   background-color: #f5f5f5;
   padding: 10px;
@@ -18,5 +24,38 @@
     object-fit: cover;
     border-radius: 8px;
     flex-shrink: 0;
+  }
+}
+
+.cards-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+  gap: 16px;
+  padding: 16px 0;
+
+  mat-card {
+    padding: 0;
+
+    mat-card-header {
+      height: 64px; /* ajusta según necesites */
+      align-items: center;
+      overflow: hidden;
+
+      mat-card-title {
+        display: -webkit-box;
+        -webkit-line-clamp: 2;
+        -webkit-box-orient: vertical;
+        overflow: hidden;
+        font-size: 14px;
+        margin: 0;
+      }
+    }
+
+    img[mat-card-image] {
+      width: 100%;
+      height: 200px; /* ajusta el valor a tu preferencia */
+      object-fit: cover;
+      margin: 0;
+    }
   }
 }
